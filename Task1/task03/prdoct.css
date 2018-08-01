@@ -1,0 +1,14 @@
+
+table,th,td{
+	text-align: center;
+	border:2px solid black;
+	padding: 20px; 
+}
+table
+{
+	margin-left: 20%;
+}
+#imag
+{
+	width:50px;
+}

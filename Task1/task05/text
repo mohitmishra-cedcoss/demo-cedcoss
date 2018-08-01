@@ -1,0 +1,21 @@
+<?php
+       $mytable="<table><tr><th>Catergory</th><th>SubCategory</th><th>ID</th><th>Name</th><th>brand</th></tr>";
+foreach ($products as $key => $television) 
+{
+	foreach ($television as $k => $val) {
+		foreach ($val as $ke => $v) {
+		$mytable.="<tr><td>".print_r($key)."</td><td>".print_r($k)."</td>";
+		$mytable.="<td>".print_r($v["id"])."</td><td>".print_r($v["name"])."</td><td>".print_r($v["brand"])."</td></tr>";
+		
+			
+		}
+	
+	
+}
+
+}
+
+$mytable.="</table>";
+echo  $mytable;
+
+?>

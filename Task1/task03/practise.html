@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js">
+</script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $(this).hide();
+        $("p").hide();
+    });
+     $("p").click(function(){
+        $(this).hide();
+
+    });
+      $("h2").click(function(){
+       
+        $("p").visible();
+    });
+});
+</script>
+</head>
+<body>
+
+<h2>This is a heading</h2>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<button>Click me</button>
+
+</body>
+</html>

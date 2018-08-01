@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my practise doc two</title>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js">
+</script>
+<script type="text/javascript">
+ $(document).ready(function(){
+$("button").click(function(){
+	 $("p").css("color","blue").css("font-size","100px").slideUp("slow").slideDown("slow");
+
+});
+$("#btn").click(function(){
+	alert.("text"+$(this).value());
+	 
+});
+
+ });
+
+</script>
+</head>
+<body>
+    <p>this is paragraph</p>
+    <input type="button" value="click here" id="btn">
+    <button id="btn">click here</button>
+ 
+ 
+ </body>
+</html>

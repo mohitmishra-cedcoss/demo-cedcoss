@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    <button onclick="myfunction()">ascending order</button>
+    <button onclick="myfunction2()">sort alphabaticaly</button>
+     <button onclick="myfunction3()">sort randomly</button>
+     <button onclick="findlowestValue()">lowest value</button>
+       <button onclick="findHigestValue()">heightest value</button>
+    <p id="demo"></p>
+    <script type="text/javascript">
+    	var a=[40,10,23,4,1,100];
+    	document.getElementById('demo').innerHTML=a;
+    	 function myfunction()
+    	{
+    		a.sort(function(a,b){return a - b})
+    		document.getElementById('demo').innerHTML=a;
+    	}
+    	function myfunction2()
+    	{
+    		a.sort();
+    		document.getElementById('demo').innerHTML=a;
+    	}
+        function myfunction3()
+    	{
+    		a.sort(function(a,b){return 0.5 - Math.random() })
+    		document.getElementById('demo').innerHTML=a;
+    	}
+    	function findlowestValue()
+    	{
+    		a.sort(function(a,b){ return a - b })
+    		document.getElementById('demo').innerHTML=a[0];
+    	}
+    	function findHigestValue()
+    	{
+    		document.getElementById('demo').innerHTML=myArrayMin(a);
+    		function myArrayMin(arr)
+    		{
+    			return Math.max.apply(null,arr);
+    		}
+    	}
+
+
+    </script>
+</body>
+</html>

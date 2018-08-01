@@ -1,0 +1,253 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+}
+.header
+{
+	background-image:url('banner.jpg');
+	width:100%;
+	
+
+}
+.subheader
+{
+	background-color:#15141480;
+	height: 500px;
+}
+.nevigation ul
+{
+  list-style-type: none;
+  margin: 0px 3%;
+  padding: 0px;
+  overflow: hidden;
+  border-bottom: 1px solid white;
+
+ 
+}
+.nevigation ul li
+{
+	float:right;
+
+}
+.nevigation ul li a
+{
+	display: block;
+	padding: 20px;
+	color: white;
+	text-decoration:none;
+	margin-top:20px;
+}
+ .midddle
+ {
+ 	
+ 	
+ }
+ .middle h1
+ { padding-top:45px;
+
+ 	text-align: center;
+ 	color: white;
+ }
+ .last
+ {   margin: 0 20%;
+ 	overflow: hidden;
+ }
+ .lastfirst{
+ 	width:30%;
+ 	float: right;
+
+ }
+ .lastfirst h1,p
+ {
+ 	color: white;
+ 	text-align: center;
+ }
+ .lastsecond
+ {
+width:30%; float: right;
+ 	    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+ }
+ .lastsecond  h1
+ {
+ 	color: white;
+ 	text-align: center;
+ }
+ #center
+ {
+ 	color: white;
+ 	text-align: center;
+
+ }
+ 
+ .lastthird
+ {
+ 	width:30%;
+ 	float: right;
+ }
+ .lastthird h1,p
+ {
+ 	color: white;
+ 	text-align:center;
+ }
+ #btn
+ {  margin: 0 43%;
+ 	padding: 10px 40px;
+ 	border-radius:20px;
+ 	background: none;
+ 	color:#1dd41d;
+ 	border: 3px solid  #1dd41d;
+
+ }
+ #btncenter
+ {
+ 	padding-top: 50px;
+ }
+ .main
+ { margin:3% 20%;
+ 	overflow: hidden;
+
+ }
+ .imagefirst
+ {
+ 	width:40%;
+ 	
+ 	float: left;
+ 	text-align: center;
+
+ 	
+
+ }
+ .imagefirst p{
+ 	color:black;
+ 	align:justify;
+ }
+ img
+ {
+ 	
+ 	border-radius: 50%;
+ }
+  .imagesecond p{
+ 	color:black;
+ 	align:justify;
+ }
+ .imagesecond
+ {
+ 	width:40%;
+ 	
+ 	float:right;
+ 	text-align: center;
+ 	
+
+ }
+ #btnsecond
+ {
+    padding: 10px 30px;
+ 	border-radius:20px;
+ 	background: none;
+ 	color:#1dd41d;
+ 	border: 3px solid  #1dd41d;
+
+ }
+#second
+{
+	text-align: center;
+	
+}
+.section3
+{
+	background-color:#7ad57ee6;
+
+}
+ .section3
+ {
+ 	text-align: center;
+ 	padding:20px 0;
+ 	color:white;
+ }
+ #formmain
+ {
+overflow:hidden;
+ }
+ #formname
+ {
+width:40%;
+float:left;
+padding-right: 20%;
+ 
+ }
+  #formname input[type=text] {
+    width: 100%;
+    padding: 12px 10px;
+    margin-left:30px;
+    margin-top: 20px;
+    background: none;
+    border-radius:10px;
+    border:2px solid white;
+    box-sizing: border-box;
+}
+ #formemail input[type=text] {
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 20px;
+    margin-right:30px;
+    background: none;
+    border-radius:10px;
+     border:2px solid white;
+    box-sizing: border-box;
+}
+ #formemail
+ {
+width:40%;
+float:right;
+ }
+ 
+
+#btnsecond1
+ {
+    padding: 10px 30px;
+ 	border-radius:20px;
+ 	background: none;
+ 	color:white;
+ 	border: 3px solid  white;
+
+ }
+#btn1{
+	padding-top: 20px;
+
+}
+
+ textarea
+ {
+ 	 margin-top: 20px;
+ 	width:96%;
+ 	padding: 40px;
+ 	 background: none;
+ 	 border: 2px solid white;
+ 	 border-radius: 20px;
+ }
+ #formname label
+ {
+ 	margin-right: 80%;
+ }
+ #formemail label
+ {
+ 	margin-right: 80%;
+ }
+ 
+ form{
+ 	padding: 20px;
+ }
+ .message
+
+{  
+	padding: 0 30px;
+ }
+ .messagelabel
+ {
+ 	text-align: left;
+ 	padding-top: 20px;
+ }

@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+	<html>
+<body>
+
+			Name:<input type="text" id="name"/><br/>
+			age:<input type="text" id="age"/><br/>
+			weight<input type="text" id="weight"/><br/>
+			<p id="demo"></p>
+			<button onclick="document.getElementById('demo').innerHTML =myFunction(document.getElementById('name').value,age.value,weight.value);">click Here</button>
+
+			<script> 
+				function myFunction(name,age,weight)
+				 {
+				 	if(age>=5 && age<=7){
+				 		if(weight>=15 && weight<=20)
+				 		{
+                               return "Hello "+name+" !!! YOUR  WEIGHT  PERFECT";
+				 		}
+				 		else if(weight>=21)
+				 		{
+                                return "Hello "+name+"!!!your weight is greter than the recomended value of 20 at an age of "+age;
+				 		}
+				 		else
+				 		{
+				 			  return "Hello "+name+"!!!your weight is less than the recomended value of 15 at an age of "+age;
+				 		}
+                        
+				 	}
+				 	else if(age>=8 && age<=10)
+				 	{
+				 		if(weight>=21 && weight<=25)
+				 		{
+				 		  return "Hello "+name+" !!! YOUR  WEIGHT  is PERFECT";
+				 			
+				 		}
+				 		else if(weight>25)
+				 		{
+                               return "Hello "+name+"!!!your weight is greter than the recomended value of 25 at an age of "+age;
+				 		}
+				 		else
+				 		{
+				 			return "Hello "+name+"!!!your weight is less than the recomended value of 21 at an age of "+age;
+				 		}
+				 	}
+				 	else if(age>=11  && age <=15)
+				 	{
+                        if(weight>=26 && weight<=30)
+				 		{
+				 		  return "Hello "+name+" !!! YOUR  WEIGHT  is PERFECT";
+				 			
+				 		}
+				 		else if(weight>30)
+				 		{
+                                return "Hello "+name+"!!!your weight is greter than the recomended value of 30 at an age of "+age;
+				 		}
+				 		else
+				 		{
+				 			return "Hello "+name+"!!!your weight is less than the recomended value of 26 at an age of "+age;
+				 		}
+				 	}
+				 	else if(age>=16  && age <=20)
+				 	{
+                        if(weight>=31 && weight<=40)
+				 		{
+				 		 return "Hello "+name+" !!! YOUR  WEIGHT  is PERFECT";
+				 			
+				 		}
+				 		else if(weight>40)
+				 		{
+                                 return "Hello "+name+"!!!your weight is greter than the recomended value of 40 at an age of "+age;
+				 		}
+				 		else
+				 		{
+				 			return "Hello "+name+"!!!your weight is less than the recomended value of 31 at an age of "+age;
+				 		}
+				 	}
+				
+			}
+
+			</script>
+
+		</body>
+</html>

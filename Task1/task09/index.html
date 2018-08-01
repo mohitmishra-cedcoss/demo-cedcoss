@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validation</title>
+</head>
+<body>
+    <form>
+    	<div><input type="text" name="username" placeholder="username" ></input></div>
+    	<div><input type="email" name="email" placeholder="email" ></input></div>
+    	<div><input type="password" name="password" placeholder="username" ></input></div>
+    	
+    	<div><input type="submit" ></input></div>
+
+
+
+
+
+    </form>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.validate.js"></script>
+    <script type="text/javascript">
+    	
+  $(document).ready(function(){
+
+ $("form").validate({
+
+
+ rules:{
+
+ 	username:
+ 	{
+ 		required:true,
+ 		minlength:4,
+
+
+ 	},
+ 	"email":"required",
+ 	"password":"required"
+
+ },
+ messages:{
+
+		    
+      "email":"This  field is requrird"
+
+
+ }
+
+
+
+
+ });
+
+
+
+
+
+  });
+
+
+    </script>
+</body>
+</html>

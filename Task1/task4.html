@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+</head>
+<body>
+      
+      <label> Name: </label> <input type="text" id="name"><br/>
+       <label> Age </label>  <input type="text" id="age"><br/>
+      <label> Weight </label> <input type="text" id="weight"><br/>
+      <input type="button"  onclick="document.getElementById('demo').innerHTML =myfunction(document.getElementById('name').value,age.value,weight.value);" value="click Here"/>
+       <p id="demo"></p>
+      
+        <script type="text/javascript">
+		function myfunction(name,age,weight)
+		{
+			if(age>=5 && age<=7)
+			{
+				if(weight>=15 && weight<21)
+				{
+					return "Hello "+name+" !!! YOUR  WEIGHT  PERFECT";
+				}
+				else if(weight>21)
+				{  
+				 
+					return "b";
+
+				}
+				else
+				{
+					
+					return "c";
+				}
+
+			}/*
+			else if(age>=8 && age<11)
+			{
+				if(weight>=21 && weight<25)
+				{
+					return  have perfect weight;
+				}
+				else if(weight>25)
+				{
+					return  have over weight;
+				}
+				else
+				{
+					return  have under weight;
+				}
+			}
+			else if(age>=16 && age<20)
+			{
+				if(weight>=31 && weight<40)
+				{
+					return  have perfect weight;
+				}
+				else if(weight>40)
+				{
+					return  have over weight;
+				}
+				else
+				{
+					return  have under weight;
+				}
+			}
+*/
+		}
+
+	</script>
+</body>
+</html>

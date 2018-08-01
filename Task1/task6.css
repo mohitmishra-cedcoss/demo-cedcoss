@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.center
+{
+	margin:3% 20%;
+}
+label{
+	margin:0 6%;
+
+}
+.btn
+{
+	margin:40px 6%;
+	padding: 14px  70px;
+	background:none;
+	color: black;
+	border:2px solid black;
+	font-size: 20px;
+}
+.input
+{    padding: 3px 10px;
+	margin-left:30px;
+	background:none;
+	border:2px solid black;
+}
+.inputp
+{
+	background:none;
+	border:2px solid black;
+	padding: 3px 10px;
+	margin:1% 5px;
+}
+.inputn
+{
+	background:none;
+	border:2px solid black;
+	padding: 3px 10px;
+}
+#headingfirst
+{
+	padding:10px;
+	margin-right: 20px;
+	font-weight: bold;
+}
+#tabledata
+{
+	padding: 5px 20px;
+}
